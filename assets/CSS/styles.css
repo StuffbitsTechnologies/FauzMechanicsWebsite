@@ -1,0 +1,63 @@
+
+/* Navigation Bar */
+.navbar{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    width: 100%;
+}
+.navbar-nav {
+    margin-left: auto;
+    
+} 
+
+.navbar{
+    background: #F7F7F7;
+    padding: 2px;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Varta';font-size: 18px;
+    
+}
+.nav-item{
+    padding-right: 22px;
+}
+
+.navbar-brand{
+    color: black;
+    font-family: "Bank Gothic MediumbyBitstream";
+}
+
+/* Navigation bar end */
+
+.text{
+    font-size: 15px;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+
+
+
+/* Footer Section */
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+footer {
+    /* position: fixed; */
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* End of Footer */
