@@ -1,7 +1,7 @@
 
 /* Navigation Bar */
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     height: 50px;
     top: 0;
     width: 100%;
@@ -39,7 +39,48 @@
 }
 
 
+/* Products Page */
+.top-pallete{
+    display: flex;
+}
 
+.top-pallete1{
+background-color: #E5E5E5;
+width: 50%;
+height: 50vh;
+
+}
+
+.pallete1-header{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+.top-pallete2{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    
+    }
+
+.productImage{
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 40%;
+    
+}
+
+.bottom-pallete{
+    display: flex;
+}
+
+
+
+
+/* Closing Product Page */
 
 /* Footer Section */
 .page-footer {
