@@ -42,6 +42,7 @@
 /* Products Page */
 .top-pallete{
     display: flex;
+
 }
 
 .top-pallete1{
@@ -64,20 +65,136 @@ height: 50vh;
     align-items: center;
     
     }
-
-.productImage{
-    height: 200px;
-    width: 200px;
-    margin-top: 10%;
+.img-div{
+    background-color: #F2F1F1;
+    height: 180%;
+    width: 40%;
     margin-left: 40%;
+    margin-right: 40%;
+    border: thin;
+    border-width:2px;
+    border-style:solid;
+    border-color:#E5E5E5;
+}
+.productImage{
+   height: 40%;
+   width: 100%;
+    
     
 }
 
 .bottom-pallete{
     display: flex;
 }
+.bottom-pallete1{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    padding: 2%;
+}
 
+.bottom-pallete2{
+    padding: 2%;
+    width: 50%;
+    height: 50vh;
+    margin-left: 45%;
 
+}
+
+.sfeatures{
+    display: flex;
+    padding: 3%;
+}
+
+/* Related Products */
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #ffcc9d;
+	color: #7f8db0;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	display: flex;
+	width: 1050px;
+	margin: 140px auto;
+}
+.single-box {
+	width: 300px;
+	background: #fff;
+	margin-right: 20px;
+	padding: 25px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: relative;
+}
+
+.single-box:last-child {
+	margin-right: 0;
+}
+.single-box .img img {
+	width: 200px;
+	margin-bottom: 10px;
+}
+.single-box .price {
+	font-weight: 600;
+	font-size: 45px;
+}
+.img {
+	position: absolute;
+	top: -25%;
+	left: 20%;
+}
+.single-box h3 {
+	margin-top: 25%;
+	margin-bottom: 15px;
+}
+.single-box p {
+	line-height: 1.9;
+}
+
+.single-box .Product_link{
+    background: #f57e20;
+    color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.single-box  .Product_name{
+	
+	margin-bottom: 30px;
+}
+@media(max-width:991px) {
+	.box {
+		width: 100%;
+	}
+}
+@media (max-width:767px) {
+	.box {
+		width: 100%;
+		flex-direction: column;
+	}
+	.single-box {
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 110px;
+	}
+}
+
+/* End of related Products */
 
 
 /* Closing Product Page */
