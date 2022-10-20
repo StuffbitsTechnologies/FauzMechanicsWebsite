@@ -85,25 +85,34 @@ height: 50vh;
 
 .bottom-pallete{
     display: flex;
+    background-color: #E5E5E5 ;
 }
 .bottom-pallete1{
-    display: flex;
+    /* display: flex; */
+    
     width: 50%;
     height: 50vh;
     padding: 2%;
+    
 }
 
-.bottom-pallete2{
-    padding: 2%;
-    width: 50%;
-    height: 50vh;
-    margin-left: 45%;
 
+.bottom-pallete1 .sfeatures{
+    /* display: flex; */
+    height: 250px;
+    width: 500px;
+  margin: auto;
+  border: 3px solid #E5E5E5;
+    
 }
 
-.sfeatures{
-    display: flex;
-    padding: 3%;
+.bottom-pallete1 .sfeatures table{
+    padding: 5px;
+    width: 100%;
+}
+.bottom-pallete1 .sfeatures th{
+    padding: 15px;
+    
 }
 
 /* Related Products */
@@ -116,7 +125,7 @@ height: 50vh;
 	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: #ffcc9d;
+	background: #f7f7f7;
 	color: #7f8db0;
 }
 .wrapper {
